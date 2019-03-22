@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_date: 2019-03-15
+  paid_or_not: false
+  client: one
+  task: one
+
+two:
+  start_date: 2019-03-15
+  paid_or_not: false
+  client: two
+  task: two

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @contract.start_date %>
+</p>
+
+<p>
+  <strong>Paid or not:</strong>
+  <%= @contract.paid_or_not %>
+</p>
+
+<p>
+  <strong>Client:</strong>
+  <%= @contract.client.name %>
+</p>
+
+<p>
+  <strong>Task:</strong>
+  <%= @contract.task.id %>
+</p>
+
+<%= link_to 'Edit', edit_contract_path(@contract) %> |
+<%= link_to 'Back', contracts_path %>
